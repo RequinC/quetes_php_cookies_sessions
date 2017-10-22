@@ -31,11 +31,11 @@ $total += $cart["mCookies"];
 
             <div class="btn-group btn-group-justified" role="group" aria-label="...">
                 <a href="index.php">
-                    <button type="button" class="btn btn-success r-push">Modifier mon panier</button>
+                    <button type="button" class="btn btn-success">Modifier mon panier</button>
                 </a>
 
                 <a href="cookie_init.php">
-                    <button type="button" class="btn btn-info r-push">Vider mon panier</button>
+                    <button type="button" class="btn btn-info">Vider mon panier</button>
                 </a>
             </div>
         </div>

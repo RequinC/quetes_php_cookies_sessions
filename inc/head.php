@@ -53,7 +53,9 @@ session_start();
     </div><!-- /.container-fluid -->
   </nav>
   <div class="container-fluid text-right">
-    <strong>Hello <?= $_SESSION['user']; ?> !</strong>
+    <strong>Hello <?php if (!empty($_SESSION['user'])){
+        echo $_SESSION['user'];
+        }; ?> !</strong>
   </div>
 </header>
 
